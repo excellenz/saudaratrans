@@ -40,6 +40,7 @@
                         <li><a href="rental.php">Rental Mobil</a></li>
                         <li><a href="travel.php">Travel</a></li>
                         <li><a href="pariwisata.php">Pariwisata</a></li>
+                        <li><a href="https://saudaratrans.com/manager/tamu">LOGIN</a></li>
                         <li><a href="contact.php">Hubungi Kami</a></li>
                     </ul>
                 </div>
