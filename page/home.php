@@ -29,19 +29,19 @@
                <img class="img-responsive" src="img/service1.jpg" alt="">   
                <span> <h2>RENTAL MOBIL</h2>
                 <p>Sewa mobil harian dan korporat dengan armada lengkap yang bersih, nyaman dan terawat. Anda akan memdapatkan layanan antar dan jemput mobil, gratis soft drink dan diskon yang menarik.</p>  
-                <a href="#" class="btn more">Lihat Armada</a> </span>               
+                <a href="index.php?page=rental" class="btn more">Lihat Armada</a> </span>               
             </div>
             <div class="col-md-4">
                 <img class="img-responsive" src="img/service2.jpg" alt="">            
                 <span><h2>BIRO PARIWISATA</h2>
                 <p>Jasa pelayanan wisata seperti wisata santri, wisata sekolah, wisata pengajian islami dan wisata korporat ke tempat-tempat wisata atau tujuan tertentu.</p>      
-                <a href="#" class="btn more">Hubungi SaudaraTrans</a>    </span>                 
+                <a href="https://api.whatsapp.com/send?phone=6285220489206.&text=Salam%20Saudara%20Trans.%20Saya%20ingin%20menanyakan%20tentang%20..." class="btn more">Hubungi SaudaraTrans</a>    </span>                 
             </div>
             <div class="col-md-4 md-margin-bottom-40">
               <img class="img-responsive" src="img/service3.jpg" alt="">  
                 <span><h2>TRAVEL</h2>
                 <p>Layanan antar jemput stasiun dan bandara dengan armada lengkap yang bersih, nyaman dan terawat. Anda akan memdapatkan layanan antar dan jemput mobil, gratis soft drink dan diskon yang menarik.</p>     
-                <a href="#" class="btn more">Hubungi SaudaraTrans</a>  </span>         
+                <a href="https://api.whatsapp.com/send?phone=6285220489206.&text=Salam%20Saudara%20Trans.%20Saya%20ingin%20menanyakan%20tentang%20..." class="btn more">Hubungi SaudaraTrans</a>  </span>         
             </div>
         </div>
   </div>
