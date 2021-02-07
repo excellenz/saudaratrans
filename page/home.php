@@ -50,11 +50,10 @@
   <div class="container">
     <div class="row">
     <div class="col-md-4">
-    <img src="img/people.png" alt="" width="100%"/>
+    <img src="img/service1.jpg" alt="" width="100%"/>
     </div>
       <div class="col-md-8">
-        <div><h1><span>Hello,<span class="blue_text">Welcome!!</span></span></h1><span class="clear spacer_responsive_hide_mobile " style="height:13px;display:block;"></span><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolores quae porro consequatur aliquam, incidunt eius magni provident, doloribus omnis minus temporibus perferendis nesciunt quam repellendus nulla nemo ipsum odit corrupti consequuntur possimus, vero mollitia velit ad consectetur. Alias, laborum excepturi nihil autem nemo numquam, ipsa architecto non, magni consequuntur quam.</p>
-        <p>Perferendis nesciunt quam repellendus nulla nemo ipsum odit corrupti consequuntur possimus, vero mollitia quam repellendus nulla nemo ipsum odit corrupti consequuntur possimus, vero mollitia velit ad consectetur.</p>
+        <div><h1><span>Hallo,<span class="blue_text"> Selamat Datang!!</span></span></h1><span class="clear spacer_responsive_hide_mobile " style="height:13px;display:block;"></span><p>Saudara Trans (Saudara Transportation) adalah CV yang memberikan layanan sewa (rental) berbagai jenis mobil yang nyaman dan terawat. Selain itu, Saudara Trans menawarkan jasa travel antar jemput stasiun Cirebon dan Bandara Sukarno Hatta. Saudara Trans juga menyediakan biro jasa pariwisata bagi korporat, sekolah, maupun kelompok pengajian dan lain sebagainya.<br>Saudara Trans (Saudara Transportation) beralamat di Jalan Raya Nanggerang-Ciawigebang, Desa Nanggerang, Kuningan. (Depan Masjid Al-Karomah)</p>
         </div>
       </div>
     </div>
@@ -70,40 +69,30 @@
               <div class="col-md-7">
                 <!-- Heading and para -->
                 <div class="block-heading-two">
-                  <h3><span>Why Choose Us?</span></h3>
+                  <h3><span>KENAPA SEWA MOBIL di SAUDARA TRANS?</span></h3>
                 </div>
-                <p>Sed ut perspiciaatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur. <br><br>Sed ut perspiciaatis iste natus error sit voluptatem probably haven't heard of them accusamus.</p>
-                <p>Voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo quasi architecto beatae vitae dicta sunt explicabo.</p>
-                
-                
-              
-          
-          
+                <p>SAUDARA TRANS memberikan fasilitas layanan yang lengkap mulai dari jenis mobil yang bervariasi, kondisi mobil yang bersih, nyaman dan terawat, layanan antar jemput mobil, serta supir yang ramah dan berpengalaman. <br><br>Armada yang tersedia lengkap meliputi mobil Avanza, Xenia, Livina, Luxio, Ayla, Calya, Toyota Hiace, dan Mobil bak terbuka.</p>
               </div>
               <div class="col-xs-12 col-sm-12 col-md-5">
                  
                     <div class="latest-post-wrap pull-left"> 
-            <h3><span>latest news</span></h3>
+            <h3><span>GRATIS RENTAL</span></h3>
                         
                         <!--Post item-->
                         <div class="post-item-wrap pull-left col-sm-6 col-md-12 col-xs-12">
-                            <img src="img/news-1.jpg" class="img-responsive post-author-img" alt="">
+                            <img src="img/service1.jpg" class="img-responsive post-author-img" alt="">
                               <div class="post-content1 pull-left col-md-9 col-sm-9 col-xs-8">
-                                  <div class="post-title pull-left"><a href="#">Lorem ipsum dolor sit ametfrfs</a></div>
+                                  <div class="post-title pull-left"><a href="#">Rental Mobil Gratis</a></div>
                                   <div class="post-meta-top pull-left">
                                       <ul>
-                                      <li><i class="fa fa-calendar"></i>22 DEC 2014</li> 
+                                      <li><i class="fa fa-calendar"></i>Mulai Januari 2021</li> 
                                       </ul>
                                   </div>
                                 </div>
                                 <div class="post-content2 pull-left">                   
-                                  <p>Voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et eaque ipsa quae.<br>
-                                  <span class="post-meta-bottom"><a href="#">More...</a></span></p>
-                            </div>
+                                  <p>Gratis biaya sewa rental mobil bagi setiap member yang sudah menyewa mobil 7 kali.</p>
+                                </div>
                          </div>
-                          
-                         <a href="#" class="dept-details-butt posts-showall">Show All</a>
-                            
                         </div>
                     </div>
   
