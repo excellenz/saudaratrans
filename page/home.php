@@ -6,8 +6,8 @@
               <li>
                 <img src="img/slides/1.jpg" alt="" />
                 <div class="flex-caption">
-                    <h3>RENTAL MOBIL TERLENGKAP</h3> 
-          <p>Sewa mobil terlengkap di Kuningan.</p>  
+                    <h3>RENTAL LENGKAP</h3> 
+          <p>Sewa mobil terlengkap di Kabupaten Kuningan.</p>  
                 </div>
               </li>
               <li>
@@ -15,13 +15,6 @@
                 <div class="flex-caption">
                     <h3>LAYANAN TERBAIK</h3> 
           <p>Mobil nyawan dan terawat, antar jemput mobil.</p> 
-                </div>
-              </li>
-              <li>
-                <img src="img/slides/3.jpg" alt="" />
-                <div class="flex-caption">
-                    <h3>Best In Industry</h3> 
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit donec.</p>  
                 </div>
               </li>
             </ul>
@@ -34,21 +27,21 @@
   <div class="row service-v1 margin-bottom-40">
             <div class="col-md-4 md-margin-bottom-40">
                <img class="img-responsive" src="img/service1.jpg" alt="">   
-               <span> <h2>Car Repair</h2>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolores quae porro consequatur aliquam, incidunt eius magni provident, doloribus omnis minus temporibus perferendis nesciunt quam repellendus nulla nemo ipsum odit corrupti consequuntur possimus</p>  
-                <a href="#" class="btn more">More</a> </span>               
+               <span> <h2>RENTAL MOBIL</h2>
+                <p>Sewa mobil harian dan korporat dengan armada lengkap yang bersih, nyaman dan terawat. Anda akan memdapatkan layanan antar dan jemput mobil, gratis soft drink dan diskon yang menarik.</p>  
+                <a href="#" class="btn more">Lihat Armada</a> </span>               
             </div>
             <div class="col-md-4">
                 <img class="img-responsive" src="img/service2.jpg" alt="">            
-                <span><h2>Car Wash</h2>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolores quae porro consequatur aliquam, incidunt eius magni provident, doloribus omnis minus temporibus perferendis nesciunt quam repellendus nulla nemo ipsum odit corrupti consequuntur possimus</p>     
- <a href="#" class="btn more">More</a>    </span>                 
+                <span><h2>TRAVEL</h2>
+                <p>Layanan antar jemput stasiun dan bandara dengan armada lengkap yang bersih, nyaman dan terawat. Anda akan memdapatkan layanan antar dan jemput mobil, gratis soft drink dan diskon yang menarik.</p>     
+ <a href="#" class="btn more">Hubungi SaudaraTrans</a>    </span>                 
             </div>
             <div class="col-md-4 md-margin-bottom-40">
               <img class="img-responsive" src="img/service3.jpg" alt="">  
-                <span><h2>Car Painting</h2>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolores quae porro consequatur aliquam, incidunt eius magni provident, doloribus omnis minus temporibus perferendis nesciunt quam repellendus nulla nemo ipsum odit corrupti consequuntur possimus</p>      
- <a href="#" class="btn more">More</a>  </span>         
+                <span><h2>BIRO PARIWISATA</h2>
+                <p>Jasa pelayanan wisata seperti wisata santri, wisata sekolah, wisata pengajian islami dan wisata korporat ke tempat-tempat wisata atau tujuan tertentu.</p>      
+ <a href="#" class="btn more">Hubungi SaudaraTrans</a>  </span>         
             </div>
         </div>
   </div>
