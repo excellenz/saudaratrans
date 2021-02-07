@@ -33,15 +33,15 @@
             </div>
             <div class="col-md-4">
                 <img class="img-responsive" src="img/service2.jpg" alt="">            
-                <span><h2>TRAVEL</h2>
-                <p>Layanan antar jemput stasiun dan bandara dengan armada lengkap yang bersih, nyaman dan terawat. Anda akan memdapatkan layanan antar dan jemput mobil, gratis soft drink dan diskon yang menarik.</p>     
- <a href="#" class="btn more">Hubungi SaudaraTrans</a>    </span>                 
+                <span><h2>BIRO PARIWISATA</h2>
+                <p>Jasa pelayanan wisata seperti wisata santri, wisata sekolah, wisata pengajian islami dan wisata korporat ke tempat-tempat wisata atau tujuan tertentu.</p>      
+                <a href="#" class="btn more">Hubungi SaudaraTrans</a>    </span>                 
             </div>
             <div class="col-md-4 md-margin-bottom-40">
               <img class="img-responsive" src="img/service3.jpg" alt="">  
-                <span><h2>BIRO PARIWISATA</h2>
-                <p>Jasa pelayanan wisata seperti wisata santri, wisata sekolah, wisata pengajian islami dan wisata korporat ke tempat-tempat wisata atau tujuan tertentu.</p>      
- <a href="#" class="btn more">Hubungi SaudaraTrans</a>  </span>         
+                <span><h2>TRAVEL</h2>
+                <p>Layanan antar jemput stasiun dan bandara dengan armada lengkap yang bersih, nyaman dan terawat. Anda akan memdapatkan layanan antar dan jemput mobil, gratis soft drink dan diskon yang menarik.</p>     
+                <a href="#" class="btn more">Hubungi SaudaraTrans</a>  </span>         
             </div>
         </div>
   </div>
