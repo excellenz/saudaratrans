@@ -70,7 +70,7 @@ include "page/".$page.".php";
           Depan Masjid Al-Karomah</address>
           <p>
             <i class="icon-phone"></i> 085220489206/085224946826 <br>
-            <i class="icon-envelope-alt"></i> saudaratrans@gmail.com
+            <i class="icon-envelope-alt"></i> transsaudara@gmail.com
           </p>
         </div>
       </div>
