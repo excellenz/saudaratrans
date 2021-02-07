@@ -37,11 +37,11 @@
                 <div class="navbar-collapse collapse ">
                     <ul class="nav navbar-nav">
                         <li class="active"><a href="index.php">Home</a></li> 
-                        <li><a href="rental.php">Rental Mobil</a></li>
-                        <li><a href="travel.php">Travel</a></li>
-                        <li><a href="pariwisata.php">Pariwisata</a></li>
+                        <li><a href="index.php?page=rental">Rental Mobil</a></li>
+                        <li><a href="index.php?page=travel">Travel</a></li>
+                        <li><a href="index.php?page=pariwisata">Pariwisata</a></li>
                         <li><a href="https://saudaratrans.com/manager/tamu">LOGIN</a></li>
-                        <li><a href="contact.php">Hubungi Kami</a></li>
+                        <li><a href="https://api.whatsapp.com/send?phone=6285220489206.&text=Salam%20Saudara%20Trans.%20Saya%20ingin%20menanyakan%20tentang%20...">CHAT Whatsapp</a></li>
                     </ul>
                 </div>
             </div>
