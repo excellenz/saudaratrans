@@ -125,27 +125,21 @@
                 </ol>
                 <div class="carousel-inner">
                     <div class="item">
-                        <p>Blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi.</p>
+                        <p>Terima kasih, Saudara Trans. Saya dan teman-teman bisa liburan akhir tahun dan tahun baru di Kota Kuningan - Cirebon dengan puas dan nyaman. Supirnya sangat sabar, ramah dan sopan. Besok kalau saya butuh lagi akan saya kabari dan pastinya saya rekomendasikan untuk teman teman.</p>
                         <p>
-                            <b>- Mark John -</b>
+                            <b>- Rifat, Santri di Kuningan Asal Jakarta -</b>
                         </p>
                     </div>
                     <div class="item">
-                        <p>Blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi.</p>
+                        <p>Senang pakai jasa rental mobil Saudara Trans. Banyak pilihan paket, pelayanan memuaskan. Besok kalau ke Bandung, saya sewa mobil lagi di Saudara Trans..</p>
                         <p>
-                            <b>- Jaison Warner -</b>
+                            <b>- Nanang, Kuningan -</b>
                         </p>
                     </div>
                     <div class="item active">
-                        <p>Blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi.</p>
+                        <p>Armada di Saudara Trans sangat lengkap mulai dari mobil kecil seperti Ayla, Avanza, Hiace hingga mobil box. Saya sangat senang menjadi pelanggan Saudara Trans, sangat membantu setiap kebutuhan saya.</p>
                         <p>
-                            <b>- Tony Antonio -</b>
-                        </p>
-                    </div>
-                    <div class="item">
-                        <p>Blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi.</p>
-                        <p>
-                            <b>- Leena Doe -</b>
+                            <b>- Lukman, Kecamatan Jalaksana -</b>
                         </p>
                     </div>
                 </div>
