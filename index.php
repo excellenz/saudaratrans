@@ -66,7 +66,7 @@ include "page/".$page.".php";
           <h5 class="widgetheading">ALAMAT KAMI</h5>
           <address>
           <strong>Jl Raya Nanggerang - Ciawigebang</strong><br>
-          Desa Nanggerang, Kec Jalaksana - Kuningan<br>
+          Desa Nanggerang, Kec Jalaksana, Kabupaten Kuningan<br>
           Depan Masjid Al-Karomah</address>
           <p>
             <i class="icon-phone"></i> 085220489206/085224946826 <br>
