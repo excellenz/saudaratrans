@@ -17,13 +17,6 @@
           <p>Mobil nyawan dan terawat, antar jemput mobil.</p> 
                 </div>
               </li>
-              <li>
-                <img src="img/slides/3.jpg" alt="" />
-                <div class="flex-caption">
-                    <h3>Best In Industry</h3> 
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit donec.</p>  
-                </div>
-              </li>
             </ul>
         </div>
   <!-- end slider -->
