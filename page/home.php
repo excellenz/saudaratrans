@@ -119,9 +119,6 @@
                     <li data-target="#carousel-example-generic" data-slide-to="2" class="active">
                         <a href="#"></a>
                     </li>
-                    <li data-target="#carousel-example-generic" data-slide-to="3" class="">
-                        <a href="#"></a>
-                    </li>
                 </ol>
                 <div class="carousel-inner">
                     <div class="item">
