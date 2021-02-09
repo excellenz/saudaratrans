@@ -1,5 +1,4 @@
-  <section id="featured">
-   
+  <section id="featured"> 
   <!-- Slider -->
         <div id="main-slider" class="flexslider">
             <ul class="slides">
@@ -7,43 +6,32 @@
                 <img src="img/slides/1.jpg" alt="" />
                 <div class="flex-caption">
                     <h3>RENTAL LENGKAP</h3> 
-          <p>Sewa mobil terlengkap di Kabupaten Kuningan.</p>  
-                </div>
-              </li>
-              <li>
-                <img src="img/slides/2.jpg" alt="" />
-                <div class="flex-caption">
-                    <h3>LAYANAN TERBAIK</h3> 
-          <p>Mobil nyawan dan terawat, antar jemput mobil.</p> 
+                    <p>Sewa mobil terlengkap di Kabupaten Kuningan.</p>  
                 </div>
               </li>
             </ul>
         </div>
   <!-- end slider -->
- 
   </section>
   <section>
   <div class="container">
-  <div class="row service-v1 margin-bottom-40">
-            <div class="col-md-4 md-margin-bottom-40">
-               <img class="img-responsive" src="img/service1.jpg" alt="">   
-               <span> <h2>RENTAL MOBIL</h2>
-                <p>Sewa mobil harian dan korporat dengan armada lengkap yang bersih, nyaman dan terawat. Anda akan memdapatkan layanan antar dan jemput mobil, gratis soft drink dan diskon yang menarik.</p>  
-                <a href="index.php?page=rental" class="btn more">Lihat Armada</a> </span>               
-            </div>
-            <div class="col-md-4">
-                <img class="img-responsive" src="img/service2.jpg" alt="">            
-                <span><h2>BIRO PARIWISATA</h2>
-                <p>Jasa pelayanan wisata seperti wisata santri, wisata sekolah, wisata pengajian islami dan wisata korporat ke tempat-tempat wisata atau tujuan tertentu.</p>      
-                <a href="https://api.whatsapp.com/send?phone=6285220489206.&text=Salam%20Saudara%20Trans.%20Saya%20ingin%20menanyakan%20tentang%20..." class="btn more">Hubungi SaudaraTrans</a>    </span>                 
-            </div>
-            <div class="col-md-4 md-margin-bottom-40">
-              <img class="img-responsive" src="img/service3.jpg" alt="">  
-                <span><h2>TRAVEL</h2>
-                <p>Layanan antar jemput stasiun dan bandara dengan armada lengkap yang bersih, nyaman dan terawat. Anda akan memdapatkan layanan antar dan jemput mobil, gratis soft drink dan diskon yang menarik.</p>     
-                <a href="https://api.whatsapp.com/send?phone=6285220489206.&text=Salam%20Saudara%20Trans.%20Saya%20ingin%20menanyakan%20tentang%20..." class="btn more">Hubungi SaudaraTrans</a>  </span>         
-            </div>
-        </div>
+    <div class="row service-v1 margin-bottom-40">
+      <div class="col-md-4 md-margin-bottom-40">
+         <img class="img-responsive" src="img/service1.jpg" alt="">   
+         <span><h2>RENTAL MOBIL</h2>
+          <p>Sewa mobil harian dan korporat dengan armada lengkap yang bersih, nyaman dan terawat. Anda akan mendapatkan layanan antar dan jemput mobil, gratis soft drink dan diskon yang menarik.</p>  
+      </div>
+      <div class="col-md-4">
+          <img class="img-responsive" src="img/service2.jpg" alt="">            
+          <span><h2>BIRO PARIWISATA</h2>
+          <p>Jasa pelayanan pariwisata seperti wisata santri, wisata sekolah, wisata pengajian islami dan wisata korporat ke tempat-tempat wisata atau tujuan tertentu sesuai dengan permintaan dari pelanggan.</p>      
+      </div>
+      <div class="col-md-4 md-margin-bottom-40">
+        <img class="img-responsive" src="img/service3.jpg" alt="">  
+          <span><h2>TRAVEL</h2>
+          <p>Layanan antar jemput stasiun dan bandara dengan armada lengkap yang bersih, nyaman dan terawat. Anda akan mendapatkan layanan antar dan jemput mobil, gratis soft drink dan diskon yang menarik.</p>     
+      </div>
+    </div>
   </div>
   </section>
   <section class="callaction">
@@ -53,18 +41,15 @@
     <img src="img/service1.jpg" alt="" width="100%"/>
     </div>
       <div class="col-md-8">
-        <div><h1><span>Hallo,<span class="blue_text"> Selamat Datang!!</span></span></h1><span class="clear spacer_responsive_hide_mobile " style="height:13px;display:block;"></span><p>Saudara Trans (Saudara Transportation) adalah CV yang memberikan layanan sewa (rental) berbagai jenis mobil yang nyaman dan terawat. Selain itu, Saudara Trans menawarkan jasa travel antar jemput stasiun Cirebon dan Bandara Sukarno Hatta. Saudara Trans juga menyediakan biro jasa pariwisata bagi korporat, sekolah, maupun kelompok pengajian dan lain sebagainya.<br>Saudara Trans (Saudara Transportation) beralamat di Jalan Raya Nanggerang-Ciawigebang, Desa Nanggerang, Kuningan. (Depan Masjid Al-Karomah)</p>
+        <div><h1><span>Hallo,<span class="blue_text"> Selamat Datang!!</span></span></h1><span class="clear spacer_responsive_hide_mobile " style="height:13px;display:block;"></span><p>Saudara Trans (Saudara Transportation) adalah CV yang memberikan layanan sewa (rental) berbagai jenis mobil yang nyaman dan terawat yang beralamat di Jalan Raya Nanggerang-Ciawigebang, Desa Nanggerang, Kuningan. (Depan Masjid Al-Karomah). Selain itu, Saudara Trans menawarkan jasa travel antar jemput stasiun Cirebon dan Bandara Sukarno Hatta. Saudara Trans juga menyediakan biro jasa pariwisata bagi korporat, sekolah, maupun kelompok pengajian dan lain sebagainya.</p>
         </div>
       </div>
     </div>
-    
   </div>
   </section>
   <section id="content">
   
-  
-  <div class="container">
-    
+  <div class="container">  
        <div class="row">
               <div class="col-md-7">
                 <!-- Heading and para -->
@@ -76,7 +61,7 @@
               <div class="col-xs-12 col-sm-12 col-md-5">
                  
                     <div class="latest-post-wrap pull-left"> 
-            <h3><span>GRATIS RENTAL</span></h3>
+                    <h3><span>GRATIS RENTAL</span></h3>
                         
                         <!--Post item-->
                         <div class="post-item-wrap pull-left col-sm-6 col-md-12 col-xs-12">

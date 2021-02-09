@@ -36,12 +36,11 @@
                 </div>
                 <div class="navbar-collapse collapse ">
                     <ul class="nav navbar-nav">
-                        <li class="active"><a href="index.php">Home</a></li> 
-                        <li><a href="index.php?page=rental">Rental Mobil</a></li>
-                        <li><a href="index.php?page=travel">Travel</a></li>
-                        <li><a href="index.php?page=pariwisata">Pariwisata</a></li>
-                        <li><a href="https://saudaratrans.com/manager/tamu">LOGIN</a></li>
-                        <li><a href="https://api.whatsapp.com/send?phone=6285220489206.&text=Salam%20Saudara%20Trans.%20Saya%20ingin%20menanyakan%20tentang%20...">CHAT Whatsapp</a></li>
+                        <li class="<?php if(!isset($_GET['page'])) {echo "active";}?>"><a href="index.php">Home</a></li> 
+                        <li class="<?php if($_GET['page'] === "rental") {echo "active";}?>"><a href="index.php?page=rental">Rental Mobil</a></li>
+                        <li class="<?php if($_GET['page'] === "travel") {echo "active";}?>"><a href="index.php?page=travel">Travel</a></li>
+                        <li class="<?php if($_GET['page'] === "pariwisata") {echo "active";}?>"><a href="index.php?page=pariwisata">Pariwisata</a></li>
+                        <li class="<?php if($_GET['page'] === "login") {echo "active";}?>"><a href="https://saudaratrans.com/manager/tamu">LOGIN</a></li>
                     </ul>
                 </div>
             </div>
@@ -149,6 +148,10 @@ include "page/".$page.".php";
 <script src="js/animate.js"></script>
 <script src="js/custom.js"></script>
 <script src="js/owl-carousel/owl.carousel.js"></script>
-<a href="https://api.whatsapp.com/send?phone=6285220489206.&amp;text=Salam%20Saudara%20Trans.%20Saya%20ingin%20menanyakan%20tentang%20" style="border-radius: 100%;position: fixed;bottom: 24px;right: 24px;box-shadow: 5px 5px 15px -4px rgba(0,0,0,0.5);"><img src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2F2.bp.blogspot.com%2F-QfS1hyElLFk%2FXDdD551JV7I%2FAAAAAAAAGu0%2FZwfoMBwMoiUAzSCHhP4QvHn_KyjaeecWQCK4BGAYYCw%2Fs640%2Flogo%252Bwhatsapp.png&amp;f=1&amp;nofb=1" style="height: 48px;width: 48px;"></a>
+
+<button style="position: fixed;bottom: 80px;right: 24px;box-shadow: 5px 5px 15px -4px rgba(0,0,0,0.5);">Perlu Bantuan? Chat Kami!</button>  
+<a href="https://api.whatsapp.com/send?phone=6285220489206.&amp;text=Salam%20Saudara%20Trans.%20Saya%20ingin%20menanyakan%20tentang%20" style="border-radius: 100%;position: fixed;bottom: 24px;right: 24px;box-shadow: 5px 5px 15px -4px rgba(0,0,0,0.5);">
+  <img src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2F2.bp.blogspot.com%2F-QfS1hyElLFk%2FXDdD551JV7I%2FAAAAAAAAGu0%2FZwfoMBwMoiUAzSCHhP4QvHn_KyjaeecWQCK4BGAYYCw%2Fs640%2Flogo%252Bwhatsapp.png&amp;f=1&amp;nofb=1" style="height: 48px;width: 48px;">
+</a>
 </body>
 </html>
