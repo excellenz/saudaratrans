@@ -37,6 +37,7 @@
                 <div class="navbar-collapse collapse ">
                     <ul class="nav navbar-nav">
                         <li class="<?php if(!isset($_GET['page'])) {echo "active";}?>"><a href="index.php">Home</a></li> 
+                        <li class="<?php if($_GET['page'] === "armada") {echo "active";}?>"><a href="index.php?page=armada">Armada</a></li>
                         <li class="<?php if($_GET['page'] === "rental") {echo "active";}?>"><a href="index.php?page=rental">Rental Mobil</a></li>
                         <li class="<?php if($_GET['page'] === "travel") {echo "active";}?>"><a href="index.php?page=travel">Travel</a></li>
                         <li class="<?php if($_GET['page'] === "pariwisata") {echo "active";}?>"><a href="index.php?page=pariwisata">Pariwisata</a></li>
