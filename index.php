@@ -149,5 +149,6 @@ include "page/".$page.".php";
 <script src="js/animate.js"></script>
 <script src="js/custom.js"></script>
 <script src="js/owl-carousel/owl.carousel.js"></script>
+<a href="https://api.whatsapp.com/send?phone=6285220489206.&amp;text=Salam%20Saudara%20Trans.%20Saya%20ingin%20menanyakan%20tentang%20" style="border-radius: 100%;position: fixed;bottom: 24px;right: 24px;box-shadow: 5px 5px 15px -4px rgba(0,0,0,0.5);"><img src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2F2.bp.blogspot.com%2F-QfS1hyElLFk%2FXDdD551JV7I%2FAAAAAAAAGu0%2FZwfoMBwMoiUAzSCHhP4QvHn_KyjaeecWQCK4BGAYYCw%2Fs640%2Flogo%252Bwhatsapp.png&amp;f=1&amp;nofb=1" style="height: 48px;width: 48px;"></a>
 </body>
 </html>
