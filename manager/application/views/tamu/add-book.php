@@ -115,7 +115,7 @@
             <div class="box-footer">
               <input type="hidden" name="id_kamar" value="<?php echo $kamar['id']; ?>" />
               <input type="hidden" name="harga" value="<?php echo $kamar['harga']; ?>" />
-              <button class="btn btn-success" type="submit" name="checkin">Check In</button>
+              <button class="btn btn-success" type="submit" name="checkin">Pesan Sekarang</button>
               <a class="btn btn-warning" href="<?= base_url('user/book'); ?>">Batal</a>
             </div>
           </form>
