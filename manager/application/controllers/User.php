@@ -186,7 +186,7 @@ class User extends CI_Controller
     // Fitur tamu hotel
     public function viewBook()
 	{
-		$data['title'] = 'Kamar Saya';
+		$data['title'] = 'Rental Saya';
 		$data['user'] = $this->db->get_where('user', ['email' => $this->session->userdata('email')])->row_array();
 		$nomor_telp = 62 . substr($data['user']['email'], 1);
 
@@ -206,7 +206,7 @@ class User extends CI_Controller
 
 	public function book()
 	{
-		$data['title'] = 'Booking Kamar';
+		$data['title'] = 'Rental Mobil';
 		$data['user'] = $this->db->get_where('user', ['email' => $this->session->userdata('email')])->row_array();
 
 		$this->db->select('*');
@@ -245,7 +245,7 @@ class User extends CI_Controller
 
 	public function addBook($id)
 	{
-		$data['title'] = 'Booking Kamar';
+		$data['title'] = 'Rental Mobil';
 		$data['user'] = $this->db->get_where('user', ['email' => $this->session->userdata('email')])->row_array();
 		$nomor_telp = 62 . substr($data['user']['email'], 1);
 
