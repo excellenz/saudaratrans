@@ -364,7 +364,7 @@ class User extends CI_Controller
 			$this->db->insert('hotel_bukti_transfer', $data);
 
 			$this->session->set_flashdata('message', '<div class="alert alert-success" role="alert"> Konfirmasi pembayaran terkirim. Menunggu verifikasi admin.</div>');
-			redirect('https://wa.me/62895320490635?text=Saya sudah melakukan pembayaran untuk booking kamar. Mohon dikonfirmasi.');
+			redirect('https://wa.me/6285220489206?text=Saya sudah melakukan pembayaran untuk booking kamar. Mohon dikonfirmasi.');
 		}
 	}
 
