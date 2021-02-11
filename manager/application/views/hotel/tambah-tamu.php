@@ -36,7 +36,7 @@
                 <div class="row">
                   <div class="col-sm-6">
                     <div class="form-group">
-                      <label>Nama Tamu</label>
+                      <label>Nama Member</label>
                       <div class="row">
                         <div class="col-sm-3">
                           <select class="form-control" name="prefix">

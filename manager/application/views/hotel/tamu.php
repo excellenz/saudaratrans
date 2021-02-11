@@ -25,14 +25,14 @@
         <div class="card-body">
           <div class="box-header">
             <?= $this->session->flashdata('message'); ?>
-            <a href="<?= base_url('hotel/tambahtamu'); ?>" class="btn btn-info mb-3">Tambah Tamu Baru</a>
+            <a href="<?= base_url('hotel/tambahtamu'); ?>" class="btn btn-info mb-3">Tambah Member Baru</a>
           </div>
           <div class="box-body">
             <table class="table table-striped table-hover table-responsive">
               <thead>
                 <tr>
                   <th>#</th>
-                  <th>Nama Tamu</th>
+                  <th>Nama Member</th>
                   <th>Alamat</th>
                   <th>Warga Negara</th>
                   <th>Nomor Handphone</th>

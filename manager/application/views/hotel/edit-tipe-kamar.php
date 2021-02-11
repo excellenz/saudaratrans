@@ -38,7 +38,7 @@
                     <div class="form-group">
                       <div class="row">
                         <div class="col-sm-4">
-                          <label>Tipe Kamar</label>
+                          <label>Tipe Layanan Rental</label>
                           <input class="form-control" name="tipe" value="<?= $tipe['tipe']; ?>">
                         </div>
                         <div class="col-sm-4">
@@ -48,9 +48,9 @@
                         <div class="col-sm-4">
                           <label>Lokasi</label>
                           <select class="form-control" name="hk">
-                            <option value="<?= $tipe['hk']; ?>"><?= $tipe['hk'] == 0 ? 'Luar Area HK' : 'Dalam Area HK'; ?></option>
-                            <option value="0">Luar Area HK</option>
-                            <option value="1">Dalam Area HK</option>
+                            <option value="<?= $tipe['hk']; ?>"><?= $tipe['hk'] == 0 ? '12 Jam Rental' : '24 Jam Rental'; ?></option>
+                            <option value="0">12 Jam Rental</option>
+                            <option value="1">24 Jam Rental</option>
                           </select>
                         </div>
                       </div>

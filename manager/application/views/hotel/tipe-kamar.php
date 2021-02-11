@@ -25,15 +25,15 @@
         <div class="card-body">
           <div class="box-header">
             <?= $this->session->flashdata('message'); ?>
-            <a class="btn btn-info mb-3" href="<?= base_url('hotel/tambahtipekamar'); ?>">Tambah Tipe Kamar</a>
+            <a class="btn btn-info mb-3" href="<?= base_url('hotel/tambahtipekamar'); ?>">Tambah Layan Rental</a>
           </div>
           <div class="box-body">
             <table class="table table-striped table-hover table-responsive">
               <thead>
                 <tr>
                   <th>#</th>
-                  <th>Tipe Kamar</th>
-                  <th>Lokasi</th>
+                  <th>Tipe Layanan</th>
+                  <th>Durasi Rental</th>
                   <th>Fasilitas</th>
                   <th>Harga</th>
                   <th>Action</th>

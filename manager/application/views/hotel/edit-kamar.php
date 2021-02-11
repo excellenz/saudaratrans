@@ -36,7 +36,7 @@
                 <div class="row">
                   <div class="col-sm-4">
                     <div class="form-group">
-                      <label>Tipe Kamar</label>
+                      <label>Tipe Layanan Rental</label>
                       <select class="form-control" name="tipe_kamar_id">
                         <option value="<?= $kamar['tipe_kamar_id']; ?>"><?= $kamar['tipe']; ?></option>
                         <?php foreach ($tipe as $t) : ?>
@@ -45,8 +45,8 @@
                       </select>
                     </div>
                     <div class="form-group">
-                      <label>Nomor Kamar</label>
-                      <input class="form-control" name="nomor_kamar" placeholder="Nomor Kamar" value="<?= $kamar['nomor_kamar']; ?>" />
+                      <label>Nomor Layanan Rental</label>
+                      <input class="form-control" name="nomor_kamar" placeholder="Nomor Layanan Rental" value="<?= $kamar['nomor_kamar']; ?>" />
                     </div>
                     <div class="form-group">
                       <label>Status</label>
