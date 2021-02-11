@@ -85,7 +85,7 @@
                         </div>
                       </div>
                       <div class="col-sm-6">
-                        <input class="form-control" name="waktu_checkin" value="14:00" readonly />
+                        <input class="form-control" name="waktu_checkin" value="Sesuai pengambilan mobil" readonly />
                       </div>
                     </div>
                   </div>
@@ -101,7 +101,7 @@
                         </div>
                       </div>
                       <div class="col-sm-6">
-                        <input class="form-control" name="waktu_checkout" value="12:00" readonly />
+                        <input class="form-control" name="waktu_checkout" value="Sesuai pengambilan mobil" readonly />
                       </div>
                     </div>
                   </div>
