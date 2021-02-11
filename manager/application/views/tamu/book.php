@@ -28,7 +28,7 @@
             <div class="col-sm-3">
               <div class="small-box bg-green">
                 <div class="inner">
-                  <h3><?= $k['nomor_kamar']; ?></h3>
+                  <h4><?= $k['nomor_kamar']; ?></h4>
                   <p><?= rupiah($k['harga']); ?></p>
                 </div>
                 <div class="icon">
