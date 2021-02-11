@@ -34,7 +34,7 @@
                 <div class="icon">
                   <i class="fa fa-bed"></i>
                 </div>
-                <a class="small-box-footer" href="addbook/<?= $k['id']; ?>">Pilih Kamar</a>
+                <a class="small-box-footer" href="addbook/<?= $k['id']; ?>">Pilih Layanan Rental</a>
               </div>
             </div>
             <?php endforeach; ?>

@@ -2,7 +2,7 @@
 
 <div class="register-box">
   <div class="register-logo">
-    <b>Al Firdausi</b>
+    <b>Saudara Trans</b>
   </div>
 
   <div class="card">

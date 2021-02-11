@@ -24,7 +24,7 @@
       <div class="card">
         <div class="card-body">
           <div class="box-header">
-            <h3 class="box-title">KAMAR NOMOR : <b><?= $kamar['nomor_kamar']; ?></b></h3>
+            <h3 class="box-title">LAYANAN RENTAL : <b><?= $kamar['nomor_kamar']; ?></b></h3>
           </div>
           <form action="<?= base_url('user/addbook/') . $kamar['id']; ?>" method="post">
             <div class="box-body">
@@ -35,21 +35,21 @@
                     <input class="form-control" name="nomor_invoice" value="<?php echo $nomor_invoice; ?>" readonly/>
                   </div>
                   <div class="form-group">
-                    <label>Nama Tamu</label>
+                    <label>Nama Pengguna</label>
                     <input type="hidden" class="form-control" name="id_tamu" value="<?php echo $tamu['id']; ?>" readonly/>
                     <input class="form-control" value="<?php echo $tamu['nama_depan']; ?>" readonly/>
                   </div>
                   <div class="alert alert-info">
-                    <h4>Tipe Kamar : <?= $kamar['tipe']; ?></h4>
+                    <h4>Layanan Rental : <?= $kamar['tipe']; ?></h4>
                     <ul class="list-unstyled">
-                      <li>Harga / Malam : <b>Rp <?= rupiah($kamar['harga']); ?></b></li>
-                      <li>Lokasi : <b><?= $kamar['hk'] == 0 ? 'Luar Area Husnul Khotimah' : 'Dalam Area Husnul Khotimah'; ?></b></li>
+                      <li>Harga : <b>Rp <?= rupiah($kamar['harga']); ?></b></li>
+                      <li>Lama Penggunaan : <b><?= $kamar['hk'] == 0 ? '12 Jam' : '24 Jam'; ?></b></li>
                     </ul>
                   </div>
                 </div>
                 <div class="col-sm-5">
                   <div class="form-group">
-                    <label>Jumlah Tamu</label>
+                    <label>Jumlah Pengguna</label>
                     <div class="row">
                       <div class="col-sm-6">
                         <select class="form-control" name="jumlah_dewasa">
@@ -74,7 +74,7 @@
                     </div>
                   </div>
                   <div class="form-group">
-                    <label>Tanggal / Waktu Check-In</label>
+                    <label>Tanggal Penggunaan</label>
                     <div class="row">
                       <div class="col-sm-6">
                         <div class="input-group date" id="reservationdate" data-target-input="nearest">
@@ -90,7 +90,7 @@
                     </div>
                   </div>
                   <div class="form-group">
-                    <label>Tanggal / Waktu Check-Out</label>
+                    <label>Tanggal Selesai</label>
                     <div class="row">
                       <div class="col-sm-6">
                         <div class="input-group date" id="checkoutdate" data-target-input="nearest">

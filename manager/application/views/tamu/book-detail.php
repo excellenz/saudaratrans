@@ -30,18 +30,14 @@
             <div class="row">
               <div class="col-sm-5">
                 <?php if ($booking['status'] == 0) : ?>
-                <div class="alert alert-warning" role="alert">Silahkan lakukan pembayaran maksimal 1 x 24 Jam dari tanggal booking.
-                Silahkan transfer ke salah satu Bank berikut:
+                <div class="alert alert-warning" role="alert">Silahkan lakukan pembayaran maksimal 1 x 24 Jam dari tanggal pesan.
+                Silahkan transfer ke Bank berikut:
                 <ul>
                   <b>
-                    <li>Bank Mandiri : 1340005757280</li>
-                    <li>Bank BCA : 2990250793</li>
-                    <li>Bank BRI : 427601013095536</li>
-                    <li>Bank Muamalat : 1320001779</li>
-                    <li>Bank BNI : 0569599595</li>
+                    <li>Bank BRI : 427601016716539</li>
                   </b>
                 </ul>
-                Semuanya atas nama <b>SUPENO</b>
+                Semuanya atas nama <b>KUSWANDI</b>
                 </div>
                 <?php endif; ?>
                 <table class="table col-sm table-striped table-hover">
@@ -59,19 +55,19 @@
                       <td><?= $booking['nama_depan'] . ' ' . $booking['nama_belakang']; ?></td>
                     </tr>
                     <tr>
-                      <th>Nomor Kamar</th>
+                      <th>Layanan Rental</th>
                       <td><?= $booking['nomor_kamar']; ?></td>
                     </tr>
                     <tr>
-                      <th>Jumlah Tamu</th>
+                      <th>Jumlah Pengguna</th>
                       <td><?= $booking['jml_dewasa'] + $booking['jml_anak'] . ' orang'; ?></td>
                     </tr>
                     <tr>
-                      <th>Check in</th>
+                      <th>Tanggal Penggunaan</th>
                       <td><?= date('d-m-Y', $booking['tgl_c_in']); ?></td>
                     </tr>
                     <tr>
-                      <th>Check out</th>
+                      <th>Selesai</th>
                       <td><?= date('d-m-Y', $booking['tgl_c_out']); ?></td>
                     </tr>
                     <tr>
