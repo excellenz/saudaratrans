@@ -25,7 +25,7 @@
         <div class="card-body">
           <div class="box-header">
             <?= $this->session->flashdata('message'); ?>
-            <a class="btn btn-info mb-3" href="<?= base_url('layanan/book') ?>">Booking Kamar</a>
+            <a class="btn btn-info mb-3" href="<?= base_url('layanan/book') ?>">Booking Layanan Rental</a>
           </div>
           <div class="box-body">
             <table class="table table-striped table-hover table-responsive">
@@ -33,9 +33,9 @@
                 <tr>
                   <th>#</th>
                   <th>Tanggal booking</th>
-                  <th>Nama tamu</th>
-                  <th>No. kamar</th>
-                  <th>Check in</th>
+                  <th>Nama Member</th>
+                  <th>Layanan Rental</th>
+                  <th>Tanggal Penggunaan</th>
                   <th>Biaya</th>
                   <th>Status</th>
                   <th>Action</th>

@@ -40,11 +40,11 @@
                       <td><?= $booking['no_invoice']; ?></td>
                     </tr>
                     <tr>
-                      <th>Nama Tamu</th>
+                      <th>Nama Member</th>
                       <td><?= $booking['nama_depan'] . ' ' . $booking['nama_belakang']; ?></td>
                     </tr>
                     <tr>
-                      <th>Nomor Kamar</th>
+                      <th>Layanan Rental</th>
                       <td><?= $booking['nomor_kamar']; ?></td>
                     </tr>
                     <tr>
