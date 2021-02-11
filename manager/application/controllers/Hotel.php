@@ -23,7 +23,7 @@ class Hotel extends CI_Controller
 
 	public function tamu()
 	{
-		$data['title'] = 'Daftar Tamu';
+		$data['title'] = 'Daftar Member';
 		$data['user'] = $this->db->get_where('user', ['email' => $this->session->userdata('email')])->row_array();
 
 		$data['tamu'] = $this->db->get('hotel_tamu')->result_array();
@@ -37,7 +37,7 @@ class Hotel extends CI_Controller
 
 	public function tambahTamu()
 	{
-		$data['title'] = 'Tambah Tamu Baru';
+		$data['title'] = 'Tambah Member Baru';
 		$data['user'] = $this->db->get_where('user', ['email' => $this->session->userdata('email')])->row_array();
 
 		$this->form_validation->set_rules('nama_depan', 'Nama Depan', 'required|trim');
@@ -92,7 +92,7 @@ class Hotel extends CI_Controller
 
 	public function editTamu($id)
 	{
-		$data['title'] = 'Edit Data Tamu';
+		$data['title'] = 'Edit Data Member';
 		$data['user'] = $this->db->get_where('user', ['email' => $this->session->userdata('email')])->row_array();
 
 		$data['tamu'] = $this->db->get_where('hotel_tamu', ['id' => $id])->row_array();
@@ -148,7 +148,7 @@ class Hotel extends CI_Controller
 
 	public function kamar()
 	{
-		$data['title'] = 'Daftar Kamar';
+		$data['title'] = 'Daftar Layanan Rental';
 		$data['user'] = $this->db->get_where('user', ['email' => $this->session->userdata('email')])->row_array();
 
 		$this->db->select('*');
@@ -165,7 +165,7 @@ class Hotel extends CI_Controller
 
 	public function tambahkamar()
 	{
-		$data['title'] = 'Tambah Kamar';
+		$data['title'] = 'Tambah Layanan Rental';
 		$data['user'] = $this->db->get_where('user', ['email' => $this->session->userdata('email')])->row_array();
 		$data['tipe'] = $this->db->get('hotel_tipe_kamar')->result_array();
 
@@ -195,7 +195,7 @@ class Hotel extends CI_Controller
 
 	public function editkamar($id)
 	{
-		$data['title'] = 'Update Kamar';
+		$data['title'] = 'Update Layanan Rental';
 		$data['user'] = $this->db->get_where('user', ['email' => $this->session->userdata('email')])->row_array();
 
 		$data['tipe'] = $this->db->get('hotel_tipe_kamar')->result_array();
@@ -233,7 +233,7 @@ class Hotel extends CI_Controller
 
 	public function tipeKamar()
 	{
-		$data['title'] = 'Tipe Kamar';
+		$data['title'] = 'Tipe Layanan Rental';
 		$data['user'] = $this->db->get_where('user', ['email' => $this->session->userdata('email')])->row_array();
 
 		$data['tipe'] = $this->db->get('hotel_tipe_kamar')->result_array();
@@ -247,7 +247,7 @@ class Hotel extends CI_Controller
 
 	public function tambahTipekamar()
 	{
-		$data['title'] = 'Tambah Tipe Kamar';
+		$data['title'] = 'Tambah Tipe Layanan Rental';
 		$data['user'] = $this->db->get_where('user', ['email' => $this->session->userdata('email')])->row_array();
 
 		$this->form_validation->set_rules('tipe', 'Tipe Kamar', 'required|trim');
@@ -295,7 +295,7 @@ class Hotel extends CI_Controller
 
 	public function editTipekamar($id)
 	{
-		$data['title'] = 'Edit Tipe Kamar';
+		$data['title'] = 'Edit Tipe Layanan Rental';
 		$data['user'] = $this->db->get_where('user', ['email' => $this->session->userdata('email')])->row_array();
 
 		$data['tipe'] = $this->db->get_where('hotel_tipe_kamar', ['id' => $id])->row_array();
