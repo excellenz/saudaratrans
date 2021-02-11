@@ -11,7 +11,7 @@ class Layanan extends CI_Controller
 
 	public function index()
 	{
-		$data['title'] = 'Daftar Booking Kamar';
+		$data['title'] = 'Daftar Pemesanan Rental';
 		$data['user'] = $this->db->get_where('user', ['email' => $this->session->userdata('email')])->row_array();
 		$this->db->select('*');
 		$this->db->from('hotel_kamar');
@@ -28,7 +28,7 @@ class Layanan extends CI_Controller
 
 	public function book()
 	{
-		$data['title'] = 'Booking Kamar';
+		$data['title'] = 'Rental Mobil';
 		$data['user'] = $this->db->get_where('user', ['email' => $this->session->userdata('email')])->row_array();
 
 		$this->db->select('*');
@@ -47,7 +47,7 @@ class Layanan extends CI_Controller
 
 	public function bookDetail($id)
 	{
-		$data['title'] = 'Detail Pemesanan';
+		$data['title'] = 'Detail Pemesanan Rental';
 		$data['user'] = $this->db->get_where('user', ['email' => $this->session->userdata('email')])->row_array();
 		$this->db->select('*');
 		$this->db->from('hotel_kamar');
@@ -67,7 +67,7 @@ class Layanan extends CI_Controller
 
 	public function addBook($id)
 	{
-		$data['title'] = 'Booking Kamar';
+		$data['title'] = 'Rental Mobil';
 		$data['user'] = $this->db->get_where('user', ['email' => $this->session->userdata('email')])->row_array();
 
 		$this->db->select('*');
