@@ -62,7 +62,8 @@
         <h3><strong>Rental 12 Jam</strong></h3>
       </div>
       <div class="pricing-terms">
-        <h6>Rp. 200.000,-</h6>
+        <s><h6>Rp. 200.000,-</h6></s>
+        <h6>Rp. 150.000,-</h6>
       </div>
       <div class="pricing-container">
         <ul>
@@ -82,7 +83,8 @@
         <h3><strong>Rental 24 Jam</strong></h3>
       </div>
       <div class="pricing-terms">
-        <h6>Rp. 300.000,-</h6>
+        <s><h6>Rp. 300.000,-</h6></s>
+        <h6>Rp. 250.000,-</h6>
       </div>
       <div class="pricing-container">
         <ul>
