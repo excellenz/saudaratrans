@@ -47,7 +47,7 @@
                 <tr>
                   <td><?= $i; ?></td>
                   <td><?= $tp['tipe']; ?></td>
-                  <td><?= $tp['hk'] == 0 ? 'Luar Area Husnul Khotimah' : 'Dalam Area Husnul Khotimah'; ?></td>
+                  <td><?= $tp['hk'] == 0 ? '12 Jam Rental' : '24 Jam Rental'; ?></td>
                   <td><?= $tp['detail']; ?></td>
                   <td><?= $tp['harga']; ?></td>
                   <td>
