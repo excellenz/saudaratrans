@@ -25,24 +25,24 @@
         <div class="card-body">
           <div class="box-header">
             <?= $this->session->flashdata('message'); ?>
-            <a class="btn btn-info mb-3" href="<?= base_url('user/book') ?>">Booking Kamar</a>
+            <a class="btn btn-info mb-3" href="<?= base_url('user/book') ?>">Rental Mobil</a>
           </div>
           <div class="box-body">
             <?php 
               if ($booking == NULL) : 
             ?>
             <div class="alert alert-warning" role="alert">
-              Anda belum melakukan pemesanan kamar. Silahkan klik tombol Booking Kamar untuk melakukan pemesanan.
+              Anda belum melakukan rental mobil. Silahkan klik tombol Rental Mobil untuk melakukan pemesanan.
             </div>
             <?php else : ?>
             <table class="table table-striped table-hover table-responsive">
               <thead>
                 <tr>
                   <th>#</th>
-                  <th>Tanggal booking</th>
-                  <th>Nama tamu</th>
-                  <th>No. kamar</th>
-                  <th>Check in</th>
+                  <th>Tanggal Rental</th>
+                  <th>Nama Tamu</th>
+                  <th>Layanan Rental</th>
+                  <th>Tanggal penggunaan</th>
                   <th>Biaya</th>
                   <th>Status Pesanan</th>
                   <th>Rincian Pesanan</th>
