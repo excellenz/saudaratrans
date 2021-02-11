@@ -52,11 +52,11 @@
                       <td><?= $booking['jml_dewasa'] + $booking['jml_anak'] . ' orang'; ?></td>
                     </tr>
                     <tr>
-                      <th>Check in</th>
+                      <th>Tanggal Penggunaan</th>
                       <td><?= date('d-m-Y', $booking['tgl_c_in']); ?></td>
                     </tr>
                     <tr>
-                      <th>Check out</th>
+                      <th>Tanggal Selesai</th>
                       <td><?= date('d-m-Y', $booking['tgl_c_out']); ?></td>
                     </tr>
                     <tr>
