@@ -12,6 +12,7 @@
     </ul>
 </div>
 <!-- end slider -->
+<center><a href="https://saudaratrans.com/manager/tamu" class="btn btn-color">RENTAL MOBIL SEKARANG Via Aplikasi</a></center>
 </section>
 <section>
 <div class="container">
