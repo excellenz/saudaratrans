@@ -96,7 +96,7 @@
                         </div>
                       </div>
                       <div class="col-sm-6">
-                        <input class="form-control" name="waktu_checkin" value="Sesuai pengambilan mobil" readonly />
+                        <input class="form-control" name="waktu_checkin" value="Tanggal diisi sesuai pengambilan mobil" readonly />
                       </div>
                     </div>
                   </div>
@@ -112,7 +112,7 @@
                         </div>
                       </div>
                       <div class="col-sm-6">
-                        <input class="form-control" name="waktu_checkout" value="Sesuai pengambilan mobil" readonly />
+                        <input class="form-control" name="waktu_checkout" value="DIISI TANGGAL BESOK untuk layanan 12 jam rental, 24 jam rental, jasa antar jemput stasiun dan bandara. Jika rental selama dua hari, diisi tanggal dua hari kemudian, dan seterusnya." readonly />
                       </div>
                     </div>
                   </div>
