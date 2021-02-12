@@ -41,7 +41,8 @@
                         <li class="<?php if($_GET['page'] === "rental") {echo "active";}?>"><a href="index.php?page=rental">Rental Mobil</a></li>
                         <li class="<?php if($_GET['page'] === "travel") {echo "active";}?>"><a href="index.php?page=travel">Travel</a></li>
                         <li class="<?php if($_GET['page'] === "pariwisata") {echo "active";}?>"><a href="index.php?page=pariwisata">Pariwisata</a></li>
-                        <li class="<?php if($_GET['page'] === "login") {echo "active";}?>"><a href="https://saudaratrans.com/manager/tamu">LOGIN</a></li>
+                        <li><a href="https://saudaratrans.com/manager/">ADMIN</a></li>
+                        <li><a href="https://saudaratrans.com/manager/tamu">LOGIN MEMBER</a></li>
                     </ul>
                 </div>
             </div>
