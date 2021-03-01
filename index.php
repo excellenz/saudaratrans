@@ -13,6 +13,7 @@
 <link href="css/flexslider.css" rel="stylesheet" />
 <link href="js/owl-carousel/owl.carousel.css" rel="stylesheet"> 
 <link href="css/style.css" rel="stylesheet" />
+<link href="css/wa-widget.css" rel="stylesheet">
  
 <!-- HTML5 shim, for IE6-8 support of HTML5 elements -->
 <!--[if lt IE 9]>
@@ -134,7 +135,36 @@ include "page/".$page.".php";
   </footer>
 </div>
 <a href="#" class="scrollup"><i class="fa fa-angle-up active"></i></a>
-<!-- javascript
+
+<div class="wa__btn_popup" aria-hidden="false">
+        <div class="wa__btn_popup_txt">Perlu bantuan? chat kami !</div>
+        <div class="wa__btn_popup_icon"></div>
+    </div>
+    <div class="wa__popup_chat_box" aria-hidden="false">
+        <div class="wa__popup_heading">
+            <div class="wa__popup_title">Pusat Bantuan Saudara Trans</div>
+            <div class="wa__popup_intro"><strong>saudaratrans.com</strong></div>
+        </div>
+        <div class="wa__popup_content wa__popup_content_left">
+            <div class="wa__popup_notice"></div>
+            <div class="nta-wa-gdpr"><input id="nta-wa-gdpr" type="checkbox" value="accept"> <label
+                    for="nta-wa-gdpr">Dengan ini saya menyetujui bahwa percakapan akan disimpan di sistem kami.</label>
+            </div>
+            <div class="wa__popup_content_list">
+                <div class="wa__popup_content_item pointer-disable"> <a target="_blank"
+                        href="https://api.whatsapp.com/send?phone=6285220489206.&amp;text=Salam%20Saudara%20Trans.%20Saya%20ingin%20menanyakan%20tentang%20"
+                        class="wa__stt wa__stt_online">
+                        <div class="wa__popup_avatar nta-default-avt"> <img src="img/whatsapp_logo.svg" alt=""></div>
+                        <div class="wa__popup_txt">
+                            <div class="wa__member_name">CS 1</div>
+                            <div class="wa__member_duty">Bapak ...</div>
+                        </div>
+                    </a></div>
+            </div>
+        </div>
+    </div>
+
+    <!-- javascript
     ================================================== -->
 <!-- Placed at the end of the document so the pages load faster -->
 <script src="js/jquery.js"></script>
@@ -148,10 +178,6 @@ include "page/".$page.".php";
 <script src="js/animate.js"></script>
 <script src="js/custom.js"></script>
 <script src="js/owl-carousel/owl.carousel.js"></script>
-
-<button style="position: fixed;bottom: 80px;right: 24px;box-shadow: 5px 5px 15px -4px rgba(0,0,0,0.5);">Perlu Bantuan? Chat Kami!</button>  
-<a href="https://api.whatsapp.com/send?phone=6285220489206.&amp;text=Salam%20Saudara%20Trans.%20Saya%20ingin%20menanyakan%20tentang%20" style="border-radius: 100%;position: fixed;bottom: 24px;right: 24px;box-shadow: 5px 5px 15px -4px rgba(0,0,0,0.5);">
-  <img src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2F2.bp.blogspot.com%2F-QfS1hyElLFk%2FXDdD551JV7I%2FAAAAAAAAGu0%2FZwfoMBwMoiUAzSCHhP4QvHn_KyjaeecWQCK4BGAYYCw%2Fs640%2Flogo%252Bwhatsapp.png&amp;f=1&amp;nofb=1" style="height: 48px;width: 48px;">
-</a>
+<script src="js/wa-widget.js"></script>
 </body>
 </html>
